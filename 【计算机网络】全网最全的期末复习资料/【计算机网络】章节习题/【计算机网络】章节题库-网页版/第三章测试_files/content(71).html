@@ -1,0 +1,526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0066)http://wlkc.jluzh.edu.cn/meol/common/ueditor/content.html?name=495 -->
+<html dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=GBK"><title>内容显示</title>
+    
+    <script type="text/javascript" src="./jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="./ueditor.parse.js"></script>
+    <link type="text/css" rel="stylesheet" href="./video-js.css">
+    <script language="javascript" type="text/javascript" src="./video.js"></script>
+    <link id="syntaxhighlighter_css" rel="stylesheet" type="text/css" href="./shCoreDefault.css">
+    <script id="syntaxhighlighter_js" src="./shCore.js" type="text/javascript" defer="defer"></script>
+    <style type="text/css">
+        html, .cke_show_borders {
+            background: transparent;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+
+        p {
+            margin: 5px 0;
+        }
+
+        #page {
+            border-top: 1px solid #696969;
+            font-size: 13px;
+            height: 30px;
+            line-height: 30px;
+            text-align: right;
+        }
+
+        .pagenum, .pagebtn {
+            display: inline
+        }
+
+        .pagebtn ul, .pagebtn li {
+            display: inline;
+        }
+
+        .pagenum em {
+            font-style: normal;
+            color: #cc0000
+        }
+
+        .pagebtn li {
+            padding-left: 8px;
+        }
+
+        .pagebtn li a {
+            padding: 5px;
+            border: 1px solid #D3D3D3;
+            text-decoration: none;
+            color: #555
+        }
+
+        .pagebtn li a:hover, .pagebtn li a.cur {
+            border: 1px solid #D6DBDF;
+            color: #c30;
+            background: #FFF;
+        }
+
+        .rotateBox {
+            display:inline-block;
+            cursor:pointer;
+            position:absolute;
+            left:0;
+            top:0;
+            background:#000;
+            opacity: 0.5;
+            width:62px!important;
+            height:62px;
+            text-align:center;
+            margin: 0;
+            line-height: 62px;
+            font-size: 20px;
+            color: #E0A15D;
+        }
+        .rotateBox img {
+            width: 42px!important;
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .rotateBox span {
+            display: none;
+        }
+
+    </style>
+    <style id="tablesort">table.sortEnabled tr.firstRow th, table.sortEnabled tr.firstRow td {
+        padding-right: 20px;
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-image: url(./themes/default/images/sortable.png);
+    }</style>
+    <style id="table">.selectTdClass {
+        background-color: #edf5fa !important
+    }
+
+    table.noBorderTable td, table.noBorderTable th, table.noBorderTable caption {
+        border: 1px dashed #ddd !important
+    }
+
+    table {
+        margin-bottom: 10px;
+        border-collapse: collapse;
+        display: table;
+    }
+
+    td, th {
+        padding: 5px 10px;
+        border: 1px solid #DDD;
+    }
+
+    caption {
+        border: 1px dashed #DDD;
+        border-bottom: 0;
+        padding: 3px;
+        text-align: center;
+    }
+
+    th {
+        border-top: 1px solid #BBB;
+        background-color: #F7F7F7;
+    }
+
+    table tr.firstRow th {
+        border-top-width: 2px;
+    }
+
+    .ue-table-interlace-color-single {
+        background-color: #fcfcfc;
+    }
+
+    .ue-table-interlace-color-double {
+        background-color: #f7faff;
+    }
+
+    td p {
+        margin: 0;
+        padding: 0;
+    }</style>
+    <style id="pagebreak">.pagebreak {
+        display: block;
+        clear: both !important;
+        cursor: default !important;
+        width: 100% !important;
+        margin: 0;
+    }</style>
+    <style id="pre">pre {
+        margin: .5em 0;
+        padding: .4em .6em;
+        border-radius: 8px;
+        background: #f8f8f8;
+    }</style>
+    <style id="loading">.loadingclass {
+        display: inline-block;
+        cursor: default;
+        background: url(./themes/default/images/loading.gif) no-repeat center center transparent;
+        border: 1px solid #cccccc;
+        margin-left: 1px;
+        height: 22px;
+        width: 22px;
+    }
+
+    .loaderrorclass {
+        display: inline-block;
+        cursor: default;
+        background: url(./themes/default/images/loaderror.png) no-repeat center center transparent;
+        border: 1px solid #cccccc;
+        margin-right: 1px;
+        height: 22px;
+        width: 22px;
+    }</style>
+    <style id="anchor">.anchorclass {
+        background: url(./themes/default/images/anchor.gif) no-repeat scroll left center transparent;
+        cursor: auto;
+        display: inline-block;
+        height: 16px;
+        width: 15px;
+    }</style>
+    <style>
+
+        table.syntaxhighlighter{
+            width:auto !important;
+        }
+        blockquote {
+            margin: 10px 25px;
+            padding: 10px;
+            background-color: #f5f5f5 !important;
+            border: 1px solid #ccc !important;
+            border-radius: 4px !important;
+            border-collapse: separate !important;
+        }
+
+    </style>
+<style id="chartsContainerHeight">
+.edui-chart-container { height:300px}</style></head>
+<body class="cke_show_borders content" marginheight="0" style="">
+<div id="body"><p>数据链路层的协议数据单元（&nbsp;&nbsp; ）</p></div>
+<div id="page" style="height: 30px;display:none"></div>
+<div id="dd"></div>
+<script type="text/javascript">
+    videojs.options.flash.swf = "./third-party/video-js/video-js.swf";
+    var device="";
+    var extraHeight = 30;
+    function getQueryString(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]);
+        return null;
+    }
+
+    var intervalProcess;
+    
+
+
+    var tmpHeight = 30;
+    var interval = 1;
+    function autoHeight() {
+        var bHeight = document.getElementById("body").scrollHeight + extraHeight;
+        //console.log("tmpHeight:"+tmpHeight + "bHeight;"+ bHeight +  "interval:"+interval);
+        if (tmpHeight < bHeight) {
+            interval = 1;
+            tmpHeight = bHeight;
+            window.parent.document.getElementById("_rtf_content" + getQueryString('name')).height = tmpHeight;
+        } else {
+            interval++;
+            window.parent.document.getElementById("_rtf_content" + getQueryString('name')).height = tmpHeight;
+        }
+        if (interval > 60) {
+            clearInterval(intervalProcess);
+        }
+//        window.parent.document.getElementById("_rtf_content"+getQueryString('name')).height=document.getElementById("body").scrollHeight + extraHeight;
+//        if(window.parent.document.getElementById("_rtf_content"+getQueryString('name')).height ==document.documentElement.scrollHeight + extraHeight){
+//            clearInterval(intervalProcess);
+//            console.log("clear");
+//        }
+        //       console.log("autoHeight"+getQueryString('name')+":"+ tmpHeight);
+    }
+
+
+    $(document).ready(function () {
+        loadBody();
+        $.ajaxSetup({
+            cache: true
+        });
+
+        $("a").each(function () {
+            var link = $(this);
+            var href = link.attr("href");
+            if (href && href[0] == "#") {
+                var name = href.substring(1);
+                $(this).click(function () {
+                    var nameElement = $("[name='" + name + "']");
+                    var idElement = $("#" + name);
+                    var element = null;
+                    if (nameElement.length > 0) {
+                        element = nameElement;
+                    } else if (idElement.length > 0) {
+                        element = idElement;
+                    }
+                    if (element) {
+                        var offset = element.offset();
+                        window.parent.scrollTo(offset.left, offset.top);
+                    }
+                    return false;
+                });
+            }
+        });
+
+
+    });
+
+
+    $(document).ready(function(){
+            $("img").each(function () {
+                var img = $(this);
+                $("<img/>").attr("src", $(img).attr("src")).load(function() {
+                    var imgwidth = this.width;
+                    var imgSetWidth = img.attr("width");
+                    var imgSetHeight = img.attr("height");
+                    var imgStyleWidth = img[0].style.width;
+                    setTimeout(function () {
+                        var parentwidth = $("body").width();
+                        if(imgSetWidth=="" || imgSetWidth==null || imgSetWidth==undefined){
+                        if (parentwidth>0&&imgwidth > parentwidth) {
+                            if(imgStyleWidth && parseInt(imgStyleWidth) < parentwidth){//如果在style中设置了宽度,并且宽度小于父级,不作处理
+                                return;
+                            }
+                                parentwidth = parentwidth - 5;
+                                $(img).css("width",parentwidth);
+                                $(img).parent().css({
+                                    width: parentwidth
+                                });
+                            }
+                        }else{
+                            if(parentwidth>0&&imgSetWidth > parentwidth){
+                                parentwidth = parentwidth - 5;
+                                var h = parentwidth*imgSetHeight/imgSetWidth;
+                                $(img).css("width",parentwidth);
+                                $(img).css("height",h);
+                                $(img).parent().css({
+                                    width: parentwidth
+                                });
+                            }
+                        }
+                    },0);
+
+                    var rotateTip = $("<p class='rotateBox'><img src='./themes/default/images/rotateR.png' /><span>旋转</span></p>");
+                    img.parent().css({//给当前图片的父元素添加定位属性
+                        position: "relative"
+                    });
+                    img.wrap('<p class="newcreate" style="position: relative;"></p>');
+                    if(img[0].offsetHeight > 200){
+                        rotateTip.appendTo(img.parent());//将创建的元素添加到当前图片的父元素中
+                        rotateTip.mouseover(function () {
+                            this.childNodes[0].style.display = "none";
+                            this.childNodes[1].style.display = "block"
+                        });
+                        rotateTip.mouseout(function () {
+                            this.childNodes[0].style.display = "inline";
+                            this.childNodes[1].style.display = "none"
+                        });
+                    }
+
+                    //图片旋转
+                    var current = 0;
+                    img.parent().find(".rotateBox").click(function () {
+                        current = (current+90)%360;
+                        var currimg = img[0];
+                        var rect = currimg.getBoundingClientRect();
+                        if(current == 90 || current == 270){//如果是竖向旋转
+                            if(img[0].offsetWidth > img[0].offsetHeight){//并且宽大于高，需要给padding-top，以免图片有重叠
+                                img[0].parentNode.style.height = img[0].style.width;
+                                img[0].style.paddingTop = parseInt(Math.abs(img[0].offsetHeight - img[0].offsetWidth))+"px";
+                            }
+
+                            if(rect.height - rect.width > 0) {
+                                $(img).css({
+                                    "height": rect.width,
+                                    "width": "auto"
+                                });
+                                $(img).css({
+                                    "position": "absolute",
+                                    "top": -Math.abs(((currimg.height - currimg.width) / 2)),
+                                    "left": ((document.body.clientWidth)-currimg.width) / 2
+                                });
+                                $(img).parent().height(currimg.width);
+                            }else {
+
+                                $(img).parent().css({
+                                    "height": "inherit"
+                                });
+                                $(img).css({
+                                    "position": "static",
+                                    "height": rect.height,
+                                    "width": rect.width
+                                });
+
+                            }
+                        }else {
+                            img[0].parentNode.style.height = "auto";
+                            img[0].style.paddingTop = 0;
+
+                            $(img).css({
+                                "position": "static",
+                                "width": rect.width,
+                                "height": "auto"
+                            });
+                        }
+
+                        img.css({//兼容ie
+                            '-webkit-transform': 'rotate('+current+'deg)',
+                            '-moz-transform': 'rotate('+current+'deg)',
+                            '-o-transform': 'rotate('+current+'deg)',
+                            '-ms-transform': 'rotate('+current+'deg)',
+                            '-sand-transform': 'rotate('+current+'deg)',
+                            'transform': 'rotate('+current+'deg)'
+                        })
+                    });
+                });
+            })
+    })
+
+    function loadBody() {
+        if (document.getElementById("body").innerHTML == '内容读取中...') {
+            var value = window.parent.document.getElementById(getQueryString('name') + "_content").value;
+            $("#body").html(value);
+            uParse('#body', {
+                rootPath: './'
+            });
+            UeInitialize("#body", "#page");
+            if (document.querySelector('.video-js') != undefined) {
+                var videos = document.querySelectorAll('.video-js');
+                for (i = 0; i < videos.length; i++) {
+                    var video = videos[i];
+                    if (video.className.indexOf('video-js') > -1) {
+                        var vid = "video_" + i;
+                        video.setAttribute("id", vid);
+                        videojs(vid).ready(function () {
+                        });
+                    }
+                }
+                // videojs('.video-js');
+                $(".vjs-big-play-button").on("click", function () {
+                    $(this).fadeOut();
+                });
+            }
+
+        }
+
+            window.onload = function(){
+                intervalProcess = setInterval(autoHeight, 1000);
+                window.parent.document.getElementById("_rtf_content" + getQueryString('name')).height = document.getElementById("body").scrollHeight + extraHeight;
+                document.getElementById("body").onresize = autoHeight;
+            };
+
+//        var mainContent = $('#infobody', window.parent.document);
+//        if(mainContent.length>0){
+//            window.parent.sendContent(value);
+//        }
+
+
+        /**
+         * 处理 禁止编辑器中自动播放 windows media player
+         */
+        if ($("object[classid='clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6']").length > 0) {
+            $("object[classid='clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6']").each(function () {
+                if ($(this)[0].controls != undefined)
+                    $(this)[0].controls.stop();
+            })
+            $("object[classid='clsid:6BF52A52-394A-11D3-B153-00C04F79FAA6'] > embed").each(function () {
+                if ($(this)[0].controls != undefined)
+                    $(this)[0].controls.stop();
+            })
+        }
+
+
+        /**
+         * 处理 禁止编辑器中自动播放 realplayer 本身就是停止
+         */
+//            $("object[classid='clsid:CFCDAA03-8BE4-11cf-B84B-0020AFBBCCFA']").each(function(){
+//            })
+        /**
+         *  处理 禁止编辑器中自动播放 quicktime
+         */
+//            $("object[classid='clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B']").each(function(){
+//            })
+
+        //处理因内容中存在margin-top/margin-bottom导致高度计算不准确；
+//        $("div,p").each(function () {
+//            $(this).css("margin-top", 0).css("margin-bottom", 0);
+//        });
+    }
+
+    $(document).ready(function(){
+        $("#body").find("p").each(function(){
+            if($(this).find(".edui-upload-video").length > 0){
+                if($(this).css("text-align")=="left"){
+                    $(this).css("text-align","");
+                    $(this).attr("align","left");
+                }else if($(this).css("text-align")=="center"){
+                    $(this).css("text-align","");
+                    $(this).attr("align","center");
+                }else if($(this).css("text-align")=="right"){
+                    $(this).css("text-align","");
+                    $(this).attr("align","right");
+                }
+            }
+        })
+    })
+
+
+</script>
+<script type="text/javascript">
+    var pageCount = 1;//总页数
+    var regExp = /_ueditor_page_break_tag_/;//根据某处字符来分页
+    var saveContent;//用于保存分页数据
+    var content, pageList;//保存全局ID
+
+    //ID=需要分页的html
+    //page=显示分页样式
+    UeInitialize = function (id, page) {
+        content = $(id);
+        pageList = $(page);
+        if (content != null && regExp.test(content.html())) {
+            pageList.show();
+            saveContent = content.html().split(regExp);
+            pageCount = saveContent.length;
+        }
+        window.UePageContent(1);
+    };
+
+    //显示分页的内容并自动生成页数
+    UePageContent = function (pageIndex) {
+        if (pageIndex >= 1 && pageIndex <= pageCount && saveContent != null && saveContent.length >= 0) {
+            var pageHtml = pageList;
+            if ((parseInt(pageIndex) - 1) <= saveContent.length) {
+                content.html(saveContent[parseInt(pageIndex) - 1]);
+            }
+
+            pageHtml.html("");
+            var innHtml = "<div class=\"pagenum\">页数：<em>" + pageIndex + "</em>/" + pageCount + "</div>";
+
+            innHtml += "<div class=\"pagebtn\"><ul>";
+            for (var index = 1; index <= pageCount; index++) {
+                if (pageIndex == index) {
+                    innHtml += "<li><a target='_self' class='cur'><span>" + index + "</span></a></li>";
+                } else {
+                    innHtml += "<li><a target='_self' href='javascript:UePageContent(" + (parseInt(index) ) + ")'><span>" + index + "</span></a></li>";
+                }
+
+            }
+            innHtml += "</ul></div>";
+
+            pageHtml.html(innHtml);
+        }
+    }
+</script>
+
+
+
+</body></html>
