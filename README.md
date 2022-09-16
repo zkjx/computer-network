@@ -8,10 +8,6 @@
 >
 > 班级：软件1903
 >
-> 转载或引用请标注本文链接：https://blog.csdn.net/HXBest/article/details/122386375
->
-> 项目全部文件的下载地址：https://github.com/He-Xiang-best/Computer-Network
->
 > 欢迎一起交流学习呀！
 
 | 微信                                                         | B站号                                                        | 公众号                                                       |
